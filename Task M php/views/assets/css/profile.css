@@ -1,0 +1,94 @@
+/* Profile Page Container */
+.profile-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Profile Overview Card */
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #e0e0e0;
+    position: relative;
+}
+
+.upload-image {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    background-color: #f8f9fa;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.upload-image:hover {
+    background-color: #ff6b00;
+}
+
+/* Profile Settings Card */
+.settings-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-card .card-header {
+    background-color: #ff6b00;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.settings-card .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.settings-card .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.settings-card .form-check-label {
+    font-size: 14px;
+    color: #555;
+}
+
+.settings-card .btn-primary {
+    background-color: #ff6b00;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.settings-card .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .profile-card {
+        margin-bottom: 20px;
+    }
+}
